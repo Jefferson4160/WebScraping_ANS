@@ -1,0 +1,26 @@
+# Arquivos de saída 
+*.zip
+*.rar
+*.7z
+
+# Arquivos baixados temporariamente 
+*.pdf
+
+# Python - Ambiente e Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# IDEs (VS Code e PyCharm)
+.vscode/
+.idea/
+
+# Sistemas Operacionais
+Thumbs.db
+.DS_Store
+
+# Planilhas e Dados de Saída 
+*.csv
