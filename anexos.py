@@ -10,7 +10,7 @@ def buscar_links_ans(url_alvo):
     Filtra por tag <a> e classe 'external-link'.
     """
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
     links_encontrados = {}
@@ -40,8 +40,6 @@ def buscar_links_ans(url_alvo):
     except Exception as e:
         print(f"Erro ao buscar links: {e}")
         return {}
-
- 
 
 def baixar_e_compactar_anexos(links_dict):
     """

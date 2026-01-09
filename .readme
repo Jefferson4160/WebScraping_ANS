@@ -1,0 +1,21 @@
+Teste de Nivelamento - Web Scraping ANS
+
+Este projeto consiste em um script de automação desenvolvido em Python para cumprir o primeiro desafio do teste de nivelamento técnico. O objetivo é realizar a coleta de documentos (anexos) no portal da Agência Nacional de Saúde Suplementar (ANS).
+
+🚀 Funcionalidades
+O script executa as seguintes etapas do Teste 1: Web Scraping:
+
+1.1. Acesso ao site: Acessa automaticamente a página oficial de Atualização do Rol de Procedimentos da ANS.
+1.2. Download de Anexos: Identifica e realiza o download dos Anexos I e II em formato PDF.
+1.3. Compactação: Agrupa todos os anexos baixados em um único arquivo compactado no formato ZIP.
+
+🛠️ Tecnologias Utilizadas
+
+Python 3.12: Linguagem obrigatória para a execução do teste.
+Requests: Biblioteca para realizar requisições HTTP e capturar o conteúdo binário dos PDFs.
+BeautifulSoup4 & SoupStrainer: Ferramentas para o parsing eficiente do HTML e filtragem específica de tags.
+Zipfile: Módulo nativo do Python para a compactação de arquivos.
+OS & Datetime: Utilizados para gestão de caminhos de arquivos e criação de nomes dinâmicos baseados no tempo real.
+
+📂 Estrutura de Saída
+Para garantir que cada execução seja única e não substitua arquivos anteriores, o sistema gera o arquivo de saída utilizando um timestamp: Anexos_ANS_DIA-MES-ANO_HORAMINUTOSEGUNDO.zip
